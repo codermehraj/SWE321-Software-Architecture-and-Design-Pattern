@@ -31,15 +31,18 @@ public class Burger {
     }
 
     public static class BurgerBuilder {
-        private double cost;
+        
         private int cheese = 0;
         private int meat = 0;
         private int letus = 0;
+        private final int chese_price = 10;
+        private final int meat_price = 10;
+        private final int letus_price = 10;
         
         public BurgerBuilder(){}
 
         public double getCost(){
-            return cheese * 10 + meat * 30 + letus * 5;
+            return cheese * chese_price + meat * meat_price + letus * letus_price;
         }
 
         public BurgerBuilder cheese(int cheese) {
