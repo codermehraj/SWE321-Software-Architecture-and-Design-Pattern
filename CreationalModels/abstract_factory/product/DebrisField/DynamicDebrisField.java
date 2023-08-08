@@ -1,4 +1,4 @@
-package creational_design_patterns.abstract_factory.product.DebrisField;
+package CreationalModels.abstract_factory.product.DebrisField;
 
 public class DynamicDebrisField implements DebrisField{
     @Override

@@ -1,4 +1,4 @@
-package creational_design_patterns.abstract_factory.product.Asteriods;
+package CreationalModels.abstract_factory.product.Asteriods;
 
 
 public class Ice_Asteroids implements Asteriods {

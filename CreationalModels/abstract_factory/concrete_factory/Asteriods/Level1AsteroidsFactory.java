@@ -1,9 +1,9 @@
-package creational_design_patterns.abstract_factory.concrete_factory.Asteriods;
+package CreationalModels.abstract_factory.concrete_factory.Asteriods;
 
-import creational_design_patterns.abstract_factory.product.Asteriods.Asteriods;
-import creational_design_patterns.abstract_factory.product.Asteriods.Ice_Asteroids;
-import creational_design_patterns.abstract_factory.product.Asteriods.Iron_Asteroids;
-import creational_design_patterns.abstract_factory.product.Obstacle;
+import CreationalModels.abstract_factory.product.Asteriods.Asteriods;
+import CreationalModels.abstract_factory.product.Asteriods.Ice_Asteroids;
+import CreationalModels.abstract_factory.product.Asteriods.Iron_Asteroids;
+import CreationalModels.abstract_factory.product.Obstacle;
 
 
 public class Level1AsteroidsFactory extends AsteriodsFactory {
