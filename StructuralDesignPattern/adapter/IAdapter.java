@@ -1,4 +1,4 @@
-package structural_design_patterns.adapter;
+package StructuralDesignPattern.adapter;
 
 public interface IAdapter<T> {
     XML convert(T file);

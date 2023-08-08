@@ -1,4 +1,4 @@
-package structural_design_patterns.adapter;
+package StructuralDesignPattern.adapter;
 
 public class JsonToXmlAdapter implements IAdapter<JSON> {
     private JSON json;

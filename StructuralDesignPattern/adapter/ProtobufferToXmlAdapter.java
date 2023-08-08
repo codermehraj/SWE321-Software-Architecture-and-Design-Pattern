@@ -1,4 +1,4 @@
-package structural_design_patterns.adapter;
+package StructuralDesignPattern.adapter;
 
 public class ProtobufferToXmlAdapter implements IAdapter<Protobuffer> {
     private Protobuffer protobuffer;
